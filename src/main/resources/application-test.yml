@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    show-sql: true
+  flyway:
+    clean-disabled: false
+
+jwt:
+  secret: "test-secret-key-that-is-at-least-256-bits-long-for-testing-purposes"
+  expiration-ms: 3600000
